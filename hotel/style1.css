@@ -1,0 +1,88 @@
+body{
+    margin:0px;
+    padding:0px;
+    background-image: url('https://cdn.pixabay.com/photo/2016/10/18/09/02/hotel-1749602__480.jpg');
+    background-repeat:no-repeat ;
+    background-size: cover;
+    
+}
+ .left{
+
+    color:white;
+    position:absolute;
+    left:14px;
+    top:10px;
+
+}
+ .mid{
+    color:rgb(4, 76, 139);
+    margin:4px auto;
+    text-decoration:none;
+    text-align:center;
+    font-family:'Baloo Bhai' , serif;
+}  
+.right{
+    position: absolute;
+    right:34px;
+    top:20px;
+    display:inline-block;
+    color:brown;
+}
+.navbar{
+    display:inline-block;
+     margin:20px auto; 
+}
+.navbar li{
+    color:rgb(162, 166, 166);
+    display:inline-block;
+    font-size:18px;
+}
+.navbar li a{
+    color:rgb(174, 11, 93);
+    padding:24px;
+    margin:4px auto;
+     text-decoration:none;  
+}
+.navbar li a:hover,.navbar li a.active{
+    text-decoration: underline;
+    color:grey;
+
+}
+.btn{
+    margin:0px 9px;
+    background-color: rgb(33, 13, 94);
+    color:white;
+    padding:4px 14px;
+    border:2px solid grey;
+    border-radius: 10px ;
+    font-size:12px;
+}
+.btn:hover{
+    background-color:rgb(110, 114, 233);
+}
+.container{
+    border:2px solid green;
+    margin:151px 157px;
+    padding:22px 23px;
+    width:35%;
+    border-radius:34px;
+    color:white;
+}
+.form-group input{
+    text-align:center;
+    display:block;
+    width:200px;
+    padding: 3px;
+    border:2px solid black;
+    margin:4px auto;
+    border-radius: 5px;
+}
+.container h1{
+    text-align:center;
+}
+.container button{
+    display:block;
+    width:48%;
+    margin:auto;
+
+}  
